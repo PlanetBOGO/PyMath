@@ -1,0 +1,13 @@
+Fractions
+- Simplify Fractions function
+- Different Datatype Support
+- Fix "int/d" where d = x/y/z/a...
+- Fix comparisons
+Polynomials
+Geometry
+Trigonometry
+Radicals
+- Fix comparisons
+
+Create Git Repo
+Comment Code
