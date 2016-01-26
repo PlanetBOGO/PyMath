@@ -41,9 +41,12 @@ class Radical(object):
             return [self, toSub]
         return [self, -other]
     def __mul__ (self, other):
-        if isinstance(other, Fraction):
-            return Fraction(self.num * other.num, self.denom*other.denom)
-        return self.__mul__(Fraction(other, 1))
+        if isinstance(other, Radical):
+            if other.root == self.root:
+                return Radical(self.num*other.num, self.root, self.coef*other.coef)
+            else:
+                return [self, other]
+        return Radical(self.num, self.root, self.coef*other)
     def __truediv__ (self, other):
         if isinstance(other, Fraction):
             return Fraction(self.num*other.denom, self.denom*other.num)

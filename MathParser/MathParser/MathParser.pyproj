@@ -23,13 +23,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="DataTypes\Fraction.py" />
+    <Compile Include="DataTypes\Geometry\Line.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataTypes\Geometry\Point.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataTypes\Geometry\Triangle.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DataTypes\Geometry\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DataTypes\Int.py" />
-    <Compile Include="DataTypes\Radical.py" />
     <Compile Include="DataTypes\__init__.py" />
     <Compile Include="MathParser.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DataTypes\" />
+    <Folder Include="DataTypes\Geometry\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TODO.txt" />
