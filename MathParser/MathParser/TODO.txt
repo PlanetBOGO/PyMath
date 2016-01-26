@@ -9,7 +9,7 @@ Trigonometry
 Radicals
 - Fix comparisons
 
-Create Git Repo
+Create Git Repo [Completed]
 Comment Code
 
 
