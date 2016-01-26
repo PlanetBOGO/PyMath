@@ -7,6 +7,7 @@ class Radical(object):
         num
         root
     """
+    #Do not develop
     def __init__(self, num, root, coef = 1):
         self.num = num
         self.root = root
